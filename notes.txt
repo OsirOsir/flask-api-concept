@@ -1,0 +1,29 @@
+flask python microframework
+postgresql
+
+tools
+postman - api test tools
+SQLALchemy - ORM tools
+flask - package/library
+jsonify - serialize data
+
+routes and views
+routes - api/endpoints
+view - logic and data is held
+
+start development server
+- python3 <app.py>
+- flask run - add environment variables, export FLASK_APP = <file_name>;, export FLASK_RUN_PORT=<port_number>;, export FLASK_DEBUG=1;
+
+-psycopg2 - when using postgresql in flask application
+-flask migration - library/package, keep track of your database
+-create new migration - flask db init
+-push migration changes - flask db migrate
+-push final changes - flask db upgrade
+
+- seeding 
+request methods - GET, POST, DELETE, PATCH/PUT
+
+[<variable> for <variable> in <item_list>]
+
+-endpoint - http://127.0.0.1:5000/<route_name>
